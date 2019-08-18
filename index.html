@@ -2,36 +2,284 @@
 <html>
 <title>YANJING TAN</title>
 <head>
-	<link rel="icon" href="favicon.ico" type="image/ico" sizes="16x16">
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="#">Navbar</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNav">
-			<ul class="navbar-nav">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Features</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Pricing</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link disabled" href="#">Disabled</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="favicon.png" type="image/png" sizes="16x16">
+	<link rel="stylesheet" href="stylesheet.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
 </head>
-<body>
-	<div id="section1">Home</div>
-	<div id="section2">About</div>
-	<div id="section3">Portfolio</div>
-	<div id="section4">Skills & languages</div>
-	<div id="section5">Contact</div>
+<body data-spy="scroll" data-target=".navbar" data-offset="10">
+	<div id="section1" class="parallax">
+		<nav class="navbar  fixed-top navbar-expand-lg navbar-light customize-bar">
+					<!-- <a class="navbar-brand" href="#">Navbar</a> -->
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse justify-content-r" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" href="#section1">Home <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#section2">About Me</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#section3">Skills & Languages</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#section4">Projects</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#section5">Contact</a>
+							</li>
+							<li class="nav-item w-border">
+								<a class="nav-link" href="resume/yanjingtan14@gmail.com.pdf" target="_blank">Resume</a>
+							</li>
+						</ul>
+					</div>
+		</nav>
+		<div class="main-img-txt">
+			<div>I'm <span class="exclaim-txt">Tan Yanjing</span></div>
+			<div>A <span class="exclaim-txt">Software Developer</span></div>
+		</div>
+	</div>
 
+	<div id="section2" class="d-flex section-padding flex-v-center">
+		<div class="potrait-ctn pos-rel">
+			<div class="my-img"></div>
+			<div class="img-frame"></div>
+		</div>
+		<div class="about-ctn">
+			<div class="about-title">About Me</div>
+			<div class="about-txt">
+					My name is Yanjing. I am a software developer from Malaysia. I completed my Bachelor of Science with Honour (Cognitive Science) in year 2017 with experience in application development and technologies on creating computer systems which require human intelligence.
+					<br/>
+					<br/>
+					I have been working in both front-end and back-end website/web apps since 2017 across e-commerce, media, and food and beverages domain. I am passionate to create technology which ease and help to improve everyone life. It's facinating exprience along the journey in programming to meet challenge and overcome it.   
+			</div>
+		</div>
+	</div>
+	<div id="section3" class="bg-light-grey section-padding-topless">
+		<div class="section-title">Skills & Languages</div>
+		<div class="skill-ctn">
+				<div class="skill">
+					<div class="skill-head">Languages</div>
+					<div class="skill-body row">
+							<div class="listed-skill col-3">
+								<div class="skill-img-ctn"><img src="image/skill/csharp.png"></div>
+								<span>C#</span>
+							</div>
+							<div class="listed-skill col-3">
+								<div class="skill-img-ctn"><img src="image/skill/html.png"></div>
+								<span>HTML</span>
+							</div>
+							<div class="listed-skill col-3">
+								<div class="skill-img-ctn"><img src="image/skill/css.png"></div>
+								<span>CSS</span>
+							</div>
+							<div class="listed-skill col-3">
+								<div class="skill-img-ctn"><img src="image/skill/js.png"></div>
+								<span>JavaScript</span>
+							</div>
+							<div class="listed-skill col-3">
+								<div class="skill-img-ctn"><img src="image/skill/sql.png"></div>
+								<span>SQL</span>
+							</div>
+							<div class="listed-skill col-3">
+								<div class="skill-img-ctn"><img src="image/skill/cpp.png"></div>
+								<span>C++</span>
+							</div>
+							<div class="listed-skill col-3">
+								<div class="skill-img-ctn"><img src="image/skill/python.png"></div>
+								<span>Python</span>
+							</div>
+					</div>
+				</div>
+				<div class="skill">
+					<div class="skill-head">Frameworks</div>
+					<div class="skill-body row">
+						<div class="listed-skill col-3">
+								<div class="skill-img-ctn"><img src="image/skill/aspnet.png"></div>
+								<span>ASP.NET</span>
+						</div>
+						<div class="listed-skill col-3">
+								<div class="skill-img-ctn"><img src="image/skill/rest.png"></div>
+								<span>REST API</span>
+						</div>
+						<div class="listed-skill col-3">
+								<div class="skill-img-ctn"><img src="image/skill/bootstrap.png"></div>
+								<span>Bootstrap</span>
+						</div>
+						<div class="listed-skill col-3">
+								<div class="skill-img-ctn"><img src="image/skill/django.png"></div>
+								<span>Django</span>
+						</div>
+						<div class="listed-skill col-3">
+								<div class="skill-img-ctn"><img src="image/skill/react.png"></div>
+								<span>React Native</span>
+						</div>
+					</div>
+				</div>
+				<div class="skill">
+					<div class="skill-head">Tools</div>
+					<div class="skill-body row">
+						<div class="listed-skill col-3">
+								<div class="skill-img-ctn"><img src="image/skill/mongodb.png"></div>
+								<span>MongoDB</span>
+						</div>
+						<div class="listed-skill col-3">
+								<div class="skill-img-ctn"><img src="image/skill/github.png"></div>
+								<span>Git & Github</span>
+						</div>
+						<div class="listed-skill col-3">
+								<div class="skill-img-ctn"><img src="image/skill/bash.png"></div>
+								<span>Bash</span>
+						</div>
+						<div class="listed-skill col-3">
+								<div class="skill-img-ctn"><img src="image/skill/postman.png"></div>
+								<span>Postman</span>
+						</div>
+						<div class="listed-skill col-3">
+								<div class="skill-img-ctn"><img src="image/skill/sqlserver.png"></div>
+								<span>SQL Server</span>
+						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+	<div id="section4" class="section-padding-topless">
+		<div class="section-title">Projects</div>
+		<div class="project-ctn">
+			<div class="row">
+				<div class="project col-lg-4">
+					<div class="project-img" style="background-image: url(image/work/odanow.jpg);">
+						<div class="external-icon r-icon-ctn"><a href="https://youtu.be/CpnpFtLK2HM" target="_blank"><i class="fas fa-link"></i></a></div>
+					</div>
+					<div class="project-desc">
+						<div class="project-title">Dining Solution Software</div>
+						<div class="project-detail">
+							A dining solution between merchants and customers, enabling both entities to connect in an easier and faster way. It's a all-in-one dining solution platform to make customers experience dining in the digitalize way.
+						</div>
+					</div>
+					<div class="project-tech">
+						<div>ASP.NET</div><div>HTML</div><div>CSS</div><div>jQuery</div><div>React Native</div>
+					</div>
+				</div>
+				<div class="project col-lg-4">
+					<div class="project-img" style="background-image: url(image/work/wahlee.jpg);">
+						<div class="external-icon r-icon-ctn"><a href="http://wahlee.m360.com.my" target="_blank"><i class="fas fa-link"></i></a></div>
+					</div>
+					<div class="project-desc">
+						<div class="project-title">E-Commerce Website</div>
+						<div class="project-detail">
+							An e-commerce website for Wahlee Group to sell there products and goods to their customers 24/7.
+						</div>
+					</div>
+					<div class="project-tech">
+						<div>.NET Core</div><div>Bootstrap</div><div>Docker</div><div>CSS/HTML</div><div>JavaScript</div>
+					</div>
+				</div>
+				<div class="project col-lg-4">
+					<div class="project-img" style="background-image: url(image/work/mingli.jpg);">
+						<div class="external-icon r-icon-ctn"><a href="https://www.facebook.com/messages/t/MingLi360" target="_blank"><i class="fas fa-link"></i></a></div>
+					</div>
+					<div class="project-desc">
+						<div class="project-title">Chatbot</div>
+						<div class="project-detail">
+							An interactive chatbot which letting the users to ask on the information about horoscope, zodiac, and Chinese meta-physics.
+						</div>
+					</div>
+					<div class="project-tech">
+						<div>Facebook API</div><div>Dialogflow</div><div>ASP.NET</div>
+					</div>
+				</div>
+				<div class="project col-lg-4">
+					<div class="project-img" style="background-image: url(image/work/wos.jpg);">
+						<div class="git-icon l-icon-ctn"><a href="https://github.com/14j123/woswebsite" target="_blank"><i class="fab fa-github"></i></a></div>
+						<div class="external-icon r-icon-ctn"><a href="video/woswebsite.mp4" target="_blank"><i class="fas fa-link"></i></a></div>
+					</div>
+					<div class="project-desc">
+						<div class="project-title">Business Website</div>
+						<div class="project-detail">
+							A business website for World of Sharing (WOS) platform to deliver their business model, concept, and information.
+						</div>
+					</div>
+					<div class="project-tech">
+						<div>HTML</div><div>CSS</div><div>jQuery</div>
+					</div>
+				</div>
+				<div class="project col-lg-4">
+					<div class="project-img" style="background-image: url(image/work/pacman.jpg);">
+						<div class="git-icon r-icon-ctn"><a href="https://github.com/14j123/pacman-in-C-" target="_blank"><i class="fab fa-github"></i></a></div>
+					</div>
+					<div class="project-desc">
+						<div class="project-title">Pacman</div>
+						<div class="project-detail">
+							A classical and simple yet interesting arcade game. 
+						</div>
+					</div>
+					<div class="project-tech">
+						<div>C++</div>
+					</div>
+				</div>
+				<div class="project col-lg-4">
+					<div class="project-img" style="background-image: url(image/work/rifleonfire.jpg);">
+						<div class="external-icon r-icon-ctn"><a href="https://youtu.be/SbZafaPIvik" target="_blank"><i class="fas fa-link"></i></a></div>
+					</div>
+					<div class="project-desc">
+						<div class="project-title">Shooting Game</div>
+						<div class="project-detail">
+							A interactive shooting game that kill the monsters around for the high score.  
+						</div>
+					</div>
+					<div class="project-tech">
+						<div>Unity</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer id="section5" class="contact t-8">
+		<div class="getintouch lr-20">Get In Touch</div>
+		<div class="contact-subtitle lr-20">I'd love to hear from you. It will be a good talk. Don't hesitate, this will be the way to reach me.</div>
+		<div class="contact-way-ctn lr-20">
+			<div class="contactopt"><a href = "mailto: yanjingtan14@gmail.com" target="_blank"><img class="contact-icon" src="image/email.png"></a></div>
+			<div class="contactopt"><a href="https://linkedin.com/in/yanjing-tan-ba3030131/" target="_blank"><img class="contact-icon" src="image/linkedin.png"></a></div>
+			<div class="contactopt"><a href="skype:yanjing14j123@hotmail.com?call" target="_blank"><img class="contact-icon" src="image/skype.png"></a></div>
+			<div class="contactopt"><a href="https://github.com/14j123" target="_blank"><img class="contact-icon" src="image/github.png"></a></div>
+		</div>
+		<div class="footer-tag">Designed & Develop by &copy;YANJING TAN</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script>
+		$(document).on('click', 'a[href^="#"]', function (event) {
+			event.preventDefault();
+
+			$('html, body').animate({
+				scrollTop: $($.attr(this, 'href')).offset().top
+			}, 500);
+		});
+
+		$(document).ready(function(){
+			$('.my-img').mouseenter(function () {
+				$(".img-frame").css("top", "-5px");
+				$(".img-frame").css("left", "-5px");
+			});
+
+			$('.my-img').mouseleave(function () {
+				$(".img-frame").css("top", "15px");
+				$(".img-frame").css("left", "15px");
+			});
+		});
+		
+		$(window).scroll(function(){
+			$('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+		});
+	</script>
 </body>
 </html>

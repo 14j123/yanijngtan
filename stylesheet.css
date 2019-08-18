@@ -1,0 +1,405 @@
+body{
+	font-family: helvetica !important;
+}
+
+body i {
+	font-family: 'FontAwesome'!important;
+    font-style: normal !important;
+    font-size: 23px !important;
+}
+
+.bg-light-grey{
+    background-color: #f8f9fa;
+}
+
+.skill-head{
+	color: #616161;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.skill-img-ctn img{
+	width:50px;
+	height:50px;
+}
+
+.parallax{
+	    background-image: url(image/main-img.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.main-img-txt{
+	font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20% 0px;
+	letter-spacing: 5px;
+}
+
+.customize-bar{
+	transition:500ms ease;
+    background-color: transparent;
+    padding: 20px !important;
+}
+
+.customize-bar.scrolled{
+  background-color:#fff;
+}
+
+.nav-item a{
+	color: #fff;
+}
+
+.justify-content-r{
+	justify-content:flex-end;
+}
+
+.exclaim-txt{
+	color: #0075f6;
+}
+
+.nav-link.active{
+	color: #0075f6 !important;
+    font-weight: bold;
+    border-bottom: 2px solid #0075f6;
+    padding: 0px !important;
+    margin: .5rem;
+}
+
+.nav-item .nav-link{
+    padding: 0px !important;
+    margin: .5rem 15px;
+}
+
+.my-img{
+	background-image: url(image/me.jpg);
+    width: 300px;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	    border-radius: 8px;
+}
+
+.img-frame{
+	transition:500ms ease;
+	border: 3px solid#0075f6;
+    width: 310px;
+    height: 410px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: -1;
+	    border-radius: 8px;
+}
+
+.img-frame:hover{
+    top: 10px;
+    left: 10px;
+}
+
+.about-ctn{
+	padding: 0px 0px 0px 40px;
+}
+
+.about-title{
+	color: #0075f6;
+    font-weight: bold;
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+
+.about-txt{
+	font-size: 15px;
+    line-height: 20px;
+color: #616161;
+    font-weight: bold;
+}
+
+.project-img{
+	background-image: url(image/fgcg.jpg);
+    width: 100%;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	border-radius: 20px 20px 0px 0px;
+}
+
+.project-desc{
+	padding: 16px 0px;
+}
+
+.project-title{
+	color: #616161;
+    font-weight: bold;
+	font-size: 20px;
+	padding-bottom:10px;
+}
+
+.project-detail{
+	color: #868686;
+    line-height: 22px;
+	padding-bottom:60px;
+	font-size:15px;
+}
+
+.project-tech{
+	position: absolute;
+    bottom: 15px;
+}
+
+.project-ctn{
+	padding: 30px 0px;
+}
+
+.r-icon-ctn{
+	position: absolute;
+    right: 35px;
+    top: 25px;
+    cursor: pointer;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.r-icon-ctn{
+	position: absolute;
+    right: 25px;
+    top: 25px;
+    cursor: pointer;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.l-icon-ctn{
+	    position: absolute;
+    right: 70px;
+    top: 25px;
+    cursor: pointer;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body i:hover{
+	color: #0075f6;
+}
+
+.skill{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+
+
+/* REUSABLE CLASS */
+.section-title{
+	color: #0075f6;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.d-flex{
+	display:flex;
+}
+
+.pos-rel{
+	position: relative;
+}
+
+.section-padding{
+	padding: 15% 20%;
+}
+
+.section-padding-topless{
+	padding: 8% 20% 8%;
+}
+
+.flex-v-center{
+	align-items:center;
+}
+
+.project-tech span{
+	font-size: 12px;
+    color: #0075f6;
+    border: 1px solid #0075f6;
+    border-radius: 8px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.project{
+	padding-top: 15px;
+    padding-bottom: 15px;
+	transition: 300ms ease;
+}
+
+.listed-skill {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    padding: 10px;
+    min-width: 150px;
+    justify-items: center;
+    margin: 10px 0px;
+}
+
+.listed-skill:hover{
+    border: 2px solid #0075f6;
+	transition: 300ms ease;
+}
+
+.skill-body {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.listed-skill span{
+	padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.contact{
+	background-image: url(image/bg5_blur.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 500px; */
+    width: 100%;
+}
+
+.getintouch{
+	    color: #000;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.contact-subtitle{
+	text-align: center;
+    color: #616161;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.contact-icon{
+	width: 100px;
+    height: 100px;
+	-webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    cursor: pointer;
+}
+
+.contact-icon:hover{
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+	transition:300ms ease;
+}
+
+.contact-way-ctn{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 20%;
+}
+
+.contactopt{
+        margin: 20px;
+    background-color: rgba(255,255,255, 0.3);
+    padding: 15px;
+    border-radius: 50%;
+}
+
+footer div{
+	text-align: center;
+    font-size: 14px;
+}
+
+.w-border{
+	border: 2px solid #0075f6;
+    border-radius: 8px;
+    cursor: pointer;
+	
+}
+
+.w-border a{
+	
+	color: #0075f6 !important;
+}
+
+.footer-padding-topless{
+	    padding: 8% 20% 20px;
+}
+
+.t-8{
+	padding-right: 20%;
+    padding-left: 20%;
+    padding-top: 8%;
+}
+
+.lr-20{
+	padding-left: 20%;
+    padding-right: 20%;
+}
+
+.footer-tag{
+	background-color: rgba(255,255,255, 0.3);
+    padding: 15px 20%;
+}
+
+.git-icon a{
+	color: #000 !important;
+}
+
+.external-icon a{
+	color: #000 !important;
+}
+
+.git-icon a:hover{
+	text-decoration: none !important;
+}
+
+.external-icon a:hover{
+	text-decoration: none !important;
+}
+
+.project-tech div {
+    font-size: 12px;
+    color: #0075f6;
+    border: 1px solid #0075f6;
+    border-radius: 8px;
+    padding: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+/* .project:hover{ */
+	/* border: 3px solid #0075f6; */
+    /* border-radius: 20px; */
+/* } */
+
+/* FINISHED REUSABLE CLASS */
