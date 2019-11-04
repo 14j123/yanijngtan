@@ -1,0 +1,141 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .main-img-txt {
+      padding: calc(100vh / 3) 0px;
+    }
+
+    .section-padding {
+      padding: 15% 50px;
+    }
+
+    .section-padding-topless {
+      padding: 8% 50px 8%;
+    }
+
+    .lr-20 {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 300px) and (max-width: 767px) {
+
+    .d-flex.s2-mobile{
+        display:block !important;
+    }
+
+    .section-padding{
+      padding: 50px 20px;
+    }
+
+    .section-padding-topless{
+      padding: 8% 20px 8%;
+    }
+
+    .lr-20{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .my-img{
+      width: 245px;
+      height: 345px;
+      margin:0 auto;
+    }
+
+    .img-frame{
+      width: 250px;
+      height: 350px;
+    }
+
+    .about-ctn {
+      padding: 50px 0px 0px;
+    }
+
+    .main-img-txt{
+      font-size: 40px;
+      padding: 50% 20px;
+    }
+
+    .main-img-txt span{
+      display: block;
+      line-height: 52px;
+    }
+
+    .main-img-txt div{
+      margin:40px 0px;
+    }
+
+    .contact-way-ctn {
+      flex-wrap: wrap;
+    }
+
+    .contact-icon {
+      width: 65px;
+      height: 65px;
+    }
+
+    .listed-skill {
+      min-width: unset;
+      max-width: unset !important;
+      flex: unset !important;
+      width: calc(100% / 2) !important;
+    } 
+
+    .skill {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+    .footer-tag {
+      padding: 15px 20px;
+    }
+
+    .t-8{
+      padding-top: 40px;
+    }
+  }

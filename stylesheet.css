@@ -395,6 +395,10 @@ footer div{
     display: inline-block;
 }
 
+.navbar-light .navbar-toggler{
+    outline: none;
+}
+
 /* .project:hover{ */
 	/* border: 3px solid #0075f6; */
     /* border-radius: 20px; */
